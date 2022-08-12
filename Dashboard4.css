@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
+
 }
 html{
 
@@ -10,13 +11,13 @@ html{
 
 body {
    min-width: 100%;
-    height: 1024px;
+    height: 100%;
     background-color: #faf8fc;
 }
 
 header {
     width: 100%;
-    height: 120px;
+    height: 50px;
     background-color: #ffffff;
 
 }
@@ -26,7 +27,7 @@ img {
     width: 140px;
     height: 30px;
     left: 48px;
-    top: 84px;
+    top: 10px;
 }
 
 .searchbar {
@@ -45,6 +46,10 @@ img {
 
 
 
+}
+.title{
+    position: absolute;
+    top: -55px;
 }
 
 .searchbar input {
@@ -84,16 +89,17 @@ img {
 
 }
 
- .icon {  
+
+
+ .icon { 
     position: absolute;
-    width: 56px;
-    height: 56px;
+    width: 36px;
+    height: 36px;
     left: 0px;
-    top: 0px;
-    border-radius: 24px;
-    top: 40px;
-    margin-left: 1280px;
-    border: 1px solid rgb(136, 134, 134);
+    border-radius: 50px;
+    top: 5px;
+    margin-left: 1240px;
+    border: 1px solid  #4B296B;
     display: flex;
 
 }
@@ -101,16 +107,16 @@ img {
 .icon i {
     width: 500px;
     height: 500px;
-    margin-left: 20px;
-    margin-top: 20px;
-
+    margin-left: 10px;
+    margin-top: 10px;
+    color:  #9780ad; 
 
 }
 
 .dashboard {
     width: 200px;
     position: absolute;
-    top: 200px;
+    top: 60px;
     left: 50px;
     text-decoration: none;
     position: absolute;
@@ -129,16 +135,20 @@ img {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 33px;
     margin-top: 20px;
+    
 
+}
+.dashboard p:hover{
+    color:#9bdf48 ;
 }
 
 .generate {
     width: 200px;
     position: absolute;
-    top: 285px;
+    top: 160px;
     left: 50px;
     text-decoration: none;
     position: absolute;
@@ -157,17 +167,20 @@ img {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 33px;
-    color: #868587;
+    color: #5d5b5e;
     margin-top: 20px;
 
+}
+.generate p:hover{
+    color:#9bdf48;
 }
 
 .group {
     width: 200px;
     position: absolute;
-    top: 370px;
+    top: 247px;
     left: 50px;
     text-decoration: none;
     position: absolute;
@@ -186,18 +199,22 @@ img {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 33px;
-    color: #868587;
+    color: #5d5b5e;
     margin-top: 20px;
     margin-bottom: 20px
+}
+.group p:hover{
+
+    color: #9bdf48;
 }
 
 .drop {
     position: absolute;
     left: 70%;
     right: 0%;
-    top: 39%;
+    top: 27%;
     bottom: 0%;
     color: #868587;
 
@@ -206,7 +223,7 @@ img {
 .drop ul li {
     padding: 10px;
     margin-left: -105px;
-    font-size: 10px;
+    font-size: 8px;
     color: #868587;
     font-style: none;
     text-decoration: none;
@@ -230,7 +247,7 @@ img {
     width: 197px;
     height: 33px;
     left: 80px;
-    top: 568px;
+    top: 490px;
     text-decoration: none;
 
 }
@@ -249,11 +266,15 @@ img {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 33px;
-    color: #868587;
+    color:#5d5b5e;
     margin-top: 10px;
 
+}
+.Documentation p:hover{
+
+    color:#9bdf48;
 }
 
 .setting {
@@ -284,9 +305,12 @@ img {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 33px;
-    color: #868587
+    color:#5d5b5e;
+}
+.setting :hover{ 
+    color: #9bdf48;
 }
 
 .disabled {
@@ -316,6 +340,11 @@ img {
     margin-top: 2px;
 
 }
+.disabled a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 2px;
+}
 .busi {
     position: absolute;
     width: 164px;
@@ -328,8 +357,6 @@ img {
     font-weight: 600;
     font-size: 20px;
     line-height: 33px;
- 
-    color: #AEADAF;
     text-decoration: none;
 }
 .apps{
@@ -346,8 +373,8 @@ img {
     line-height: 33px;
   
     
-    color: #7B925F;
-    text-decoration-line: underline;
+    color: #9bdf48;
+    text-decoration-line: none;
 }
 .even{
     position: absolute;
@@ -363,7 +390,7 @@ img {
     line-height: 33px;
     
     
-    color: #AEADAF;
+    color: #4B296B;
     text-decoration: none;
 }
 .form{
@@ -371,15 +398,16 @@ img {
     width: 480px;
     height: 680px;
     left: 313px;
-    top: 246px;
+    top: 170px;
     
     background: #FFFFFF;
     box-shadow: 0px 4px 44px rgba(221, 221, 221, 0.15);
     border-radius: 16px;
+    box-shadow: 3px 6px 3px  rgba(213, 196, 214, 0.15),3px 6px 3px #bfbdc1 ;
 }
 .form h4{
     position: absolute;
-    width: 109px;
+    width: 159px;
     height: 33px;
     left: 28px;
     top: 32px;
@@ -404,11 +432,11 @@ img {
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 12px;
+padding: 10px;
 gap: 10px;
 
-width: 405px;
-height: 52px;
+width: 400px;
+
 
 border: 1px solid #EBEBEB;
 border-radius: 8px;
@@ -466,11 +494,11 @@ form{
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 12px;
+padding: 10px;
 gap: 10px;
 
 width: 405px;
-height: 52px;
+
 
 border: 1px solid #EBEBEB;
 border-radius: 8px;
@@ -595,10 +623,11 @@ position: absolute;
 }
 .last{
     position: absolute;
-        width: 350px;
+        width: 300px;
         height: 772px;
-        left: 650px;
+        left: 600px;
         top:-75px;
+        border: 1px solid #dacee4;
 
     
         background: #FFFFFF;
@@ -617,15 +646,16 @@ position: absolute;
 }
 .moon{
     position: absolute;
-        width: 298px;
-        height: 291px;
-        left: 0px;
+        /* width: 298px;
+        height: 291px; */
+        left: -13px;
         top: 0px;
     
         /* White */
     
         background: #FFFFFF;
         border-radius: 8px;
+      
 }
 .shape{
     position: absolute;
@@ -637,7 +667,7 @@ position: absolute;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 12px;
         line-height: 27px;
         text-decoration: none;
     
@@ -667,7 +697,7 @@ position: absolute;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 12px;
         line-height: 27px;
     
         /* Neutrals/5 */
@@ -683,7 +713,7 @@ position: absolute;
         gap: 10px;
     
         position: absolute;
-        width: 150px;
+        width: 100px;
         padding: 10,px;
         left: 15px;
         top: 688px;
@@ -694,6 +724,11 @@ position: absolute;
         border: none;
         cursor: pointer;
 }
+.right a{
+    text-decoration: none;
+    color: #4B296B;
+    font-size: 12px;
+}
 .rate{
     display: flex;
         flex-direction: row;
@@ -703,7 +738,7 @@ position: absolute;
         gap: 10px;
     
         position: absolute;
-        width: 150px;
+        width: 100px;
         padding: 10,px;
         left: 180px;
         top: 688px;
@@ -713,6 +748,11 @@ position: absolute;
         border: none;
         color: #ffffff;
         cursor: pointer;
+}
+.rate a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
 }
 .photo{
     width: 25px;
@@ -751,7 +791,7 @@ position: absolute;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 27px;
     
     color: #5E5C5F;
